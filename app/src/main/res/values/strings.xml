@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">PhamTuanAnhTodolist</string>
+    <string name="deleteOne_title">Delete item.</string>
+    <string name="deleteOne_message">" Bạn có muốn xóa item này không ?"</string>
+    <string name="app_yes">Yes</string>
+    <string name="app_no">No</string>
+    <string name="app_ok" translatable="false">Ok</string>
+    <string name="app_modify">Modify</string>
+    <string name="app_cancel">Cancel</string>
+    <string name="addOne_title">Tạo 1 task</string>
+    <string name="addOne_message">Điền thông tin task thành công.</string>
+    <string name="addOne_name">Tên...</string>
+    <string name="addOne_task">Task...</string>
+    <string name="addOne_important">Task quan trọng</string>
+    <string name="modifyOne_title">Modify task.</string>
+    <string name="modifyOne_message">Chỉnh sửa thông tin task thành công.</string>
+    <string name="app_listNoEmpty">Danh sách task của bạn :</string>
+    <string name="app_listEmpty">Danh sách không hợp lệ !</string>
+    <string name="app_example">Hãy mua một chút cafe !</string>
+</resources>
