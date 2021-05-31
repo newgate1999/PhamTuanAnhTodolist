@@ -127,7 +127,7 @@ public class HomeFragment extends Fragment {
 
     private void clearDialog() {
         AlertDialog.Builder alert = new AlertDialog.Builder(getContext());
-        alert.setTitle("Notification");
+        alert.setTitle("Thông báo xóa");
         alert.setMessage("Bạn có muốn xóa tất cả các task này không?");
 
         alert.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
@@ -389,7 +389,6 @@ public class HomeFragment extends Fragment {
         editor.putString("myTodoData", jsonArray.toString());
         editor.apply();
     }
-
 
     private void checkUserStatus() {
         FirebaseUser user = firebaseAuth.getCurrentUser();

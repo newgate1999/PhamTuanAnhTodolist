@@ -25,7 +25,7 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src="@drawable/anh1"
+                    android:src="@drawable/avatar"
                     />
 
             </androidx.cardview.widget.CardView>
