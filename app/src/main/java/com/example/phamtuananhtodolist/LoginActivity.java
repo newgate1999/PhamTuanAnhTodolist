@@ -46,9 +46,7 @@ public class LoginActivity extends AppCompatActivity {
         btnLogin = findViewById(R.id.btnLogin);
 
         ActionBar actionBar = getSupportActionBar();
-        actionBar.setTitle("Crate account");
-        actionBar.setDisplayHomeAsUpEnabled(true);
-        actionBar.setDisplayShowHomeEnabled(true);
+        actionBar.hide();
 
         progressDialog = new ProgressDialog(this);
 
