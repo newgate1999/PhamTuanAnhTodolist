@@ -9,33 +9,46 @@
     android:padding="32dp"
     tools:context=".LoginActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/login"
+        />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login"
+        android:text="Log In"
         android:textSize="30sp"/>
 
     <EditText
         android:id="@+id/loginEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="email"
+        android:hint="Email"
         android:maxLines="1"
+        android:background="@drawable/bg_edittext"
+        android:paddingLeft="8dp"
+        android:layout_marginTop="32dp"
         android:inputType="text"/>
 
     <EditText
         android:id="@+id/loginPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="password"
+        android:hint="Password"
         android:maxLines="1"
+        android:background="@drawable/bg_edittext"
+        android:paddingLeft="8dp"
+        android:layout_marginTop="8dp"
         android:inputType="textPassword"/>
 
     <Button
         android:id="@+id/btnLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="LOGIN"
+        android:text="Login"
+        android:backgroundTint="@color/green"
         android:layout_marginTop="32dp"/>
 
     <TextView

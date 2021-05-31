@@ -9,6 +9,12 @@
     android:padding="32dp"
     tools:context=".RegisterActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/register"
+        />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -22,6 +28,9 @@
         android:hint="Name"
         android:maxLines="1"
         android:inputType="text"
+        android:background="@drawable/bg_edittext"
+        android:paddingLeft="8dp"
+        android:layout_marginTop="8dp"
         />
     <EditText
         android:id="@+id/registerPhone"
@@ -30,6 +39,9 @@
         android:hint="Phone"
         android:maxLines="1"
         android:inputType="text"
+        android:background="@drawable/bg_edittext"
+        android:paddingLeft="8dp"
+        android:layout_marginTop="8dp"
         />
     <EditText
         android:id="@+id/registerEmail"
@@ -38,6 +50,9 @@
         android:hint="Username"
         android:maxLines="1"
         android:inputType="text"
+        android:background="@drawable/bg_edittext"
+        android:paddingLeft="8dp"
+        android:layout_marginTop="8dp"
         />
 
 
@@ -48,6 +63,9 @@
         android:hint="Password"
         android:maxLines="1"
         android:inputType="textPassword"
+        android:background="@drawable/bg_edittext"
+        android:paddingLeft="8dp"
+        android:layout_marginTop="8dp"
         />
 
     <Button
@@ -55,6 +73,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Register"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/green"
         />
 
 </LinearLayout>
