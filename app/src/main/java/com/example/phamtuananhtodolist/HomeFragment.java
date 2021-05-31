@@ -114,7 +114,7 @@ public class HomeFragment extends Fragment {
     private void clearDialog() {
         AlertDialog.Builder alert = new AlertDialog.Builder(getContext());
         alert.setTitle("Notification");
-        alert.setMessage("Bạn có muốn xóa task này không?");
+        alert.setMessage("Bạn có muốn xóa tất cả các task này không?");
 
         alert.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int whichButton) {

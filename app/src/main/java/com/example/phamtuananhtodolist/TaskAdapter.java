@@ -14,8 +14,8 @@ import java.util.List;
 
 public class TaskAdapter extends ArrayAdapter<Task> {
 
-    public TaskAdapter(Context context, List<Task> tweets) {
-        super(context, 0, tweets);
+    public TaskAdapter(Context context, List<Task> tasks) {
+        super(context, 0, tasks);
     }
 
     @Override
