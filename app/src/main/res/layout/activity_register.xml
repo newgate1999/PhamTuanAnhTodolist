@@ -11,69 +11,65 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:src="@drawable/register"
-        />
+        android:src="@drawable/register" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Register"
-        android:textSize="28sp"/>
+        android:textSize="28sp" />
 
     <EditText
         android:id="@+id/registerName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Name"
-        android:maxLines="1"
-        android:inputType="text"
-        android:background="@drawable/bg_edittext"
-        android:paddingLeft="8dp"
         android:layout_marginTop="8dp"
-        />
+        android:background="@drawable/bg_edittext"
+        android:hint="Name"
+        android:inputType="text"
+        android:maxLines="1"
+        android:paddingLeft="8dp" />
+
     <EditText
         android:id="@+id/registerPhone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Phone"
-        android:maxLines="1"
-        android:inputType="text"
-        android:background="@drawable/bg_edittext"
-        android:paddingLeft="8dp"
         android:layout_marginTop="8dp"
-        />
+        android:background="@drawable/bg_edittext"
+        android:hint="Phone"
+        android:inputType="text"
+        android:maxLines="1"
+        android:paddingLeft="8dp" />
+
     <EditText
         android:id="@+id/registerEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Email"
-        android:maxLines="1"
-        android:inputType="text"
-        android:background="@drawable/bg_edittext"
-        android:paddingLeft="8dp"
         android:layout_marginTop="8dp"
-        />
+        android:background="@drawable/bg_edittext"
+        android:hint="Email"
+        android:inputType="text"
+        android:maxLines="1"
+        android:paddingLeft="8dp" />
 
 
     <EditText
         android:id="@+id/registerPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Password"
-        android:maxLines="1"
-        android:inputType="textPassword"
-        android:background="@drawable/bg_edittext"
-        android:paddingLeft="8dp"
         android:layout_marginTop="8dp"
-        />
+        android:background="@drawable/bg_edittext"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:paddingLeft="8dp" />
 
     <Button
         android:id="@+id/btnRegister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Register"
         android:layout_marginTop="16dp"
         android:backgroundTint="@color/green"
-        />
+        android:text="Register" />
 
 </LinearLayout>
